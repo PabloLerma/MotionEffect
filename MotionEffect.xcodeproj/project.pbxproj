@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC1E1751BD0F83E00244F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1E1741BD0F83E00244F44 /* AppDelegate.swift */; };
+		FDC1E1771BD0F83E00244F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1E1761BD0F83E00244F44 /* ViewController.swift */; };
+		FDC1E17A1BD0F83E00244F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC1E1781BD0F83E00244F44 /* Main.storyboard */; };
+		FDC1E17C1BD0F83E00244F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC1E17B1BD0F83E00244F44 /* Assets.xcassets */; };
+		FDC1E1871BD10ADA00244F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC1E1861BD10ADA00244F44 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDC1E1711BD0F83E00244F44 /* MotionEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC1E1741BD0F83E00244F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDC1E1761BD0F83E00244F44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDC1E1791BD0F83E00244F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC1E17B1BD0F83E00244F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC1E1801BD0F83E00244F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC1E1861BD10ADA00244F44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC1E16E1BD0F83E00244F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC1E1681BD0F83E00244F44 = {
+			isa = PBXGroup;
+			children = (
+				FDC1E1731BD0F83E00244F44 /* MotionEffect */,
+				FDC1E1721BD0F83E00244F44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC1E1721BD0F83E00244F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1E1711BD0F83E00244F44 /* MotionEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC1E1731BD0F83E00244F44 /* MotionEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1E1741BD0F83E00244F44 /* AppDelegate.swift */,
+				FDC1E1761BD0F83E00244F44 /* ViewController.swift */,
+				FDC1E1781BD0F83E00244F44 /* Main.storyboard */,
+				FDC1E17B1BD0F83E00244F44 /* Assets.xcassets */,
+				FDC1E1801BD0F83E00244F44 /* Info.plist */,
+				FDC1E1861BD10ADA00244F44 /* LaunchScreen.storyboard */,
+			);
+			path = MotionEffect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC1E1701BD0F83E00244F44 /* MotionEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC1E1831BD0F83E00244F44 /* Build configuration list for PBXNativeTarget "MotionEffect" */;
+			buildPhases = (
+				FDC1E16D1BD0F83E00244F44 /* Sources */,
+				FDC1E16E1BD0F83E00244F44 /* Frameworks */,
+				FDC1E16F1BD0F83E00244F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionEffect;
+			productName = MotionEffect;
+			productReference = FDC1E1711BD0F83E00244F44 /* MotionEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC1E1691BD0F83E00244F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Pablo Lerma Martínez";
+				TargetAttributes = {
+					FDC1E1701BD0F83E00244F44 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FDC1E16C1BD0F83E00244F44 /* Build configuration list for PBXProject "MotionEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC1E1681BD0F83E00244F44;
+			productRefGroup = FDC1E1721BD0F83E00244F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC1E1701BD0F83E00244F44 /* MotionEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC1E16F1BD0F83E00244F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC1E1871BD10ADA00244F44 /* LaunchScreen.storyboard in Resources */,
+				FDC1E17C1BD0F83E00244F44 /* Assets.xcassets in Resources */,
+				FDC1E17A1BD0F83E00244F44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC1E16D1BD0F83E00244F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC1E1771BD0F83E00244F44 /* ViewController.swift in Sources */,
+				FDC1E1751BD0F83E00244F44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDC1E1781BD0F83E00244F44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC1E1791BD0F83E00244F44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC1E1811BD0F83E00244F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC1E1821BD0F83E00244F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC1E1841BD0F83E00244F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plm.MotionEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDC1E1851BD0F83E00244F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plm.MotionEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC1E16C1BD0F83E00244F44 /* Build configuration list for PBXProject "MotionEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC1E1811BD0F83E00244F44 /* Debug */,
+				FDC1E1821BD0F83E00244F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC1E1831BD0F83E00244F44 /* Build configuration list for PBXNativeTarget "MotionEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC1E1841BD0F83E00244F44 /* Debug */,
+				FDC1E1851BD0F83E00244F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC1E1691BD0F83E00244F44 /* Project object */;
+}
